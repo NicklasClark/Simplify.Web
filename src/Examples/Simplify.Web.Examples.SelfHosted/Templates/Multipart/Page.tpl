@@ -5,7 +5,10 @@
 		data-bv-feedbackicons-validating="glyphicon glyphicon-refresh"
 		data-bv-submitbuttons='button[type="submit"]'>
 		<div class="form-group">
-			<input type="file" class="" name="File1" placeholder="File 1" />
+			<input type="file" class="input-file" name="File1" />
+		</div>
+		<div class="form-group">
+			<input type="file" class="input-file" name="File2" />
 		</div>
 
 		<div class="form-group">
