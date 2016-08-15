@@ -97,6 +97,8 @@
     <Compile Include="Controllers\Accounts\LogoutController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\HttpErrors\Http404Controller.cs" />
+    <Compile Include="Controllers\Multipart\ProcessMultipartController.cs" />
+    <Compile Include="Controllers\Multipart\MultipartPageController.cs" />
     <Compile Include="Controllers\Shared\LoginPanelController.cs" />
     <Compile Include="Controllers\Shared\NavbarController.cs" />
     <Compile Include="Controllers\Static\AboutController.cs" />
@@ -136,6 +138,9 @@
     <None Include="Styles\Navbar.scss" />
     <None Include="Styles\Variables.scss" />
     <None Include="Templates\Accounts\LoginPage.tpl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Templates\Multipart\Page.tpl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Templates\Simplify.Web\MessageBox\ErrorMessageBox.tpl">
@@ -182,6 +187,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Labels.en.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="App_Data\Messages.en.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
