@@ -10,7 +10,9 @@
 		<div class="form-group">
 			<input type="file" class="input-file" name="File2" />
 		</div>
-
+		<div class="form-group">
+			<input type="text" class="form-control" name="SomeText" placeholder="Some text" />
+		</div>
 		<div class="form-group">
 			<button type="submit" class="btn btn-default">Save</button>
 		</div>
