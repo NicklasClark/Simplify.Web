@@ -5,13 +5,18 @@ using Simplify.DI;
 using Simplify.Web.Attributes.Setup;
 using Simplify.Web.Core;
 using Simplify.Web.Core.Controllers;
+using Simplify.Web.Core.Controllers.Execution;
+using Simplify.Web.Core.Controllers.Execution.Building;
 using Simplify.Web.Core.PageAssembly;
 using Simplify.Web.Core.StaticFiles;
+using Simplify.Web.Core.Views;
 using Simplify.Web.Meta;
 using Simplify.Web.ModelBinding;
 using Simplify.Web.Modules;
-using Simplify.Web.Modules.Html;
+using Simplify.Web.Modules.Data;
+using Simplify.Web.Modules.Data.Html;
 using Simplify.Web.Routing;
+using Simplify.Web.Settings;
 using Environment = Simplify.Web.Modules.Environment;
 
 namespace Simplify.Web.Bootstrapper
