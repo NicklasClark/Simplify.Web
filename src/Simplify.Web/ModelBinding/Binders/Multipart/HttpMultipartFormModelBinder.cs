@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Simplify.Web.ModelBinding.Binders
+namespace Simplify.Web.ModelBinding.Binders.Multipart
 {
 	/// <summary>
 	/// Provides form multipart data to object binding
