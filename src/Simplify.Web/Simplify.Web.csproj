@@ -51,6 +51,7 @@
     <Compile Include="Core\StaticFiles\StaticFileResponseFactory.cs" />
     <Compile Include="ModelBinding\Binders\Multipart\HttpFilesViewModel.cs" />
     <Compile Include="ModelBinding\Binders\Multipart\HttpFile.cs" />
+    <Compile Include="ModelBinding\Binders\Multipart\HttpMultipartFormDataParser.cs" />
     <Compile Include="ModelBinding\Binders\Multipart\HttpMultipartFormModelBinder.cs" />
     <Compile Include="ModelBinding\ModelNotSupportedException.cs" />
     <Compile Include="Owin\OwinHttpRequestHelper.cs" />
