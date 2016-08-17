@@ -8,6 +8,21 @@ namespace Simplify.Web.ModelBinding.Binders.Multipart
 	public class HttpFile
 	{
 		/// <summary>
+		/// Initializes a new instance of the <see cref="HttpFile" /> class.
+		/// </summary>
+		/// <param name="name">The file name.</param>
+		/// <param name="contentType">Type of the content.</param>
+		/// <param name="contentLength">Length of the content.</param>
+		/// <param name="data">The file data.</param>
+		public HttpFile(string name, string contentType, string contentLength, Stream data)
+		{
+			Name = name;
+			ContentType = contentType;
+			ContentLength = contentLength;
+			Data = data;
+		}
+
+		/// <summary>
 		/// Gets the fully qualified name of the file.
 		/// </summary>
 		public string Name { get; private set; }
